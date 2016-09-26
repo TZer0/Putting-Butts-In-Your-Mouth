@@ -13,7 +13,6 @@
 	var i, j;
 	var text, texts;
 	var invalidTags = ["PRE", "BLOCKQUOTE", "CODE", "INPUT", "BUTTON", "TEXTAREA"]
- 	var regexes = [];
 
 	var replacements = [
 		[/soul/g, 'butt'],
