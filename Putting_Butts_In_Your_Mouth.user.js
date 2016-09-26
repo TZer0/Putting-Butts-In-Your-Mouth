@@ -5,7 +5,6 @@
 // @include     https://*
 // @include     http://*
 // @exclude     http://github.com/tzer0/*
-// @require     Replacements.js
 // @version     1
 // @grant       none
 // ==/UserScript==
@@ -15,11 +14,19 @@
 	var text, texts;
 	var invalidTags = ["PRE", "BLOCKQUOTE", "CODE", "INPUT", "BUTTON", "TEXTAREA"]
  	var regexes = [];
+
+	var replacements = [
+		[/soul/g, 'butt'],
+		[/Soul/g, 'Butt'],
+		[/soul/ig, 'BUTT'],
+		[/cloud/g, 'butt'],
+		[/Cloud/g, 'Butt'],
+		[/cloud/ig, 'BUTT'],
+	];
 	function isValid(tag) {
 		return invalidTags.indexOf(tag) === -1;
 	}
 
-	// 
 	texts = document.evaluate('//body//text()[ normalize-space(.) != "" ]', document, null, 6, null);
 	for (i = 0; text = texts.snapshotItem(i); i+=1) {
 		if (isValid(text.parentNode.tagName)) {

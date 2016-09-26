@@ -12,7 +12,6 @@ I really hope JoeSimmons doesn't mind me borrowing two lines - I've actually tri
 Improvements over original implementation:
 * Use native regex format - easier to write catch-all replacements.
 * Simplified code, easier to understand and variable names make sense.
-* Replacements have been moved to a separate file.
 * Replacements are a list rather than dictionary - guaranteed order.
 
 This work is public domain because I really don't care about what license two tiny js files for replacing words on webpages should go under.
