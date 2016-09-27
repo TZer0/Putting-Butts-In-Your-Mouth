@@ -14,4 +14,4 @@ Improvements over original implementation:
 * Simplified code, easier to understand and variable names make sense.
 * Replacements are a list rather than dictionary - guaranteed order.
 
-This work is public domain because I really don't care about what license two tiny js files for replacing words on webpages should go under.
+This work is public domain because I really don't care about what license a js files for replacing words on webpages should go under.
