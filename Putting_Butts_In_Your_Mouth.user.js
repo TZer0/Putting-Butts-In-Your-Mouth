@@ -4,7 +4,8 @@
 // @description Replaces words on pages viewed with other words of your choice
 // @include     https://*
 // @include     http://*
-// @exclude     http://github.com/tzer0/*
+// @exclude     http://github.com/TZer0/*
+// @exclude     https://github.com/TZer0/*
 // @version     1
 // @grant       none
 // ==/UserScript==
