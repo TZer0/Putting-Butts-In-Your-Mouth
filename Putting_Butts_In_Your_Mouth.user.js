@@ -16,7 +16,7 @@
 	var invalidTags = ["PRE", "BLOCKQUOTE", "CODE", "INPUT", "BUTTON", "TEXTAREA"]
 
 	var replacements = [
-		[/soul/g, 'butt'],
+		[/soul/g, 'butt'], // Please go here after installing: https://www.goodreads.com/quotes/tag/soul/
 		[/Soul/g, 'Butt'],
 		[/soul/ig, 'BUTT'],
 		[/cloud/g, 'butt'],
