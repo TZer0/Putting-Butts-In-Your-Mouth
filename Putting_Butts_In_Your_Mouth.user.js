@@ -22,6 +22,9 @@
 		[/cloud/g, 'butt'],
 		[/Cloud/g, 'Butt'],
 		[/cloud/ig, 'BUTT'],
+		[/bitcoin/g, 'buttcoin'],
+		[/Bitcoin/g, 'Buttcoin'],
+		[/Bitcoin/ig, 'BUTTCOIN'],
 	];
 	function isValid(tag) {
 		return invalidTags.indexOf(tag) === -1;
